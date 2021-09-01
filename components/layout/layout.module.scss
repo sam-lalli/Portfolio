@@ -1,0 +1,48 @@
+@import './variables';
+@import './mixins';
+
+.layout {
+  min-height: 100vh;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 1800px;
+  margin: 0 auto;
+  transition: padding 0.3s ease-out;
+
+  .content {
+    position: relative;
+    flex-grow: 1;
+    padding: 0.5rem 1rem;
+    background-color: $dark-2;
+    border-radius: 0.5rem;
+    align-items: stretch;
+    overflow: hidden;
+    box-shadow: $box-shadow-1;
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin: 1rem 0 2.5rem;
+    }
+
+    p {
+      line-height: 1.6rem;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  @include tablet-up {
+    padding: 0 2rem;
+
+    .content {
+      padding: 1.5rem 2.5rem;
+    }
+  }
+}
