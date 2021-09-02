@@ -17,7 +17,7 @@
       {
         "label": "Articles",
         "page": "content/pages/articles.md",
-        "enabled": false
+        "enabled": true
       },
       {
         "label": "Contact",

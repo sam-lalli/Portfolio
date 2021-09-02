@@ -2,6 +2,7 @@
 page_title: Contact Me
 tab_title: Contact
 seo_description: ''
+published: true
 blocks:
 - template: content-block
   block_title: ''
