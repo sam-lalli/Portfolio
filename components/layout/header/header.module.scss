@@ -1,0 +1,219 @@
+@import './variables';
+@import './mixins';
+
+$height: 40px;
+$highlight-color: $primary;
+
+.header {
+  height: $height;
+  padding: 0.8rem 1rem;
+  font-weight: 600;
+  color: $light-2;
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    height: $height;
+
+    .brand {
+      position: relative;
+      color: $light-1;
+      font-size: 1.6rem;
+      font-weight: 600;
+      font-family: $font-heading;
+      z-index: 6;
+      align-self: center;
+
+      &:after {
+        content: none;
+      }
+
+      .highlight {
+        bottom: 1px;
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .menuToggle {
+      display: block;
+      z-index: 6;
+      margin-top: 4px;
+      align-self: center;
+
+      &:after {
+        content: none;
+      }
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+        
+        path {
+          stroke: $light-1;
+        }
+      }
+    }
+    
+    .menu {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba($dark-1, 0.95);
+      z-index: 5;
+
+      .menuItems {
+        text-align: center;
+        
+        .menuItem {
+          display: block;
+          margin-bottom: 2.3rem;
+
+          a {
+            position: relative;
+            color: $light-2;
+            font-weight: 600;
+            font-size: 1.6rem;
+            font-family: $font-heading;
+            
+            &:after {
+              content: none;
+            }
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+
+          .highlight {
+            bottom: -1px;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .social {
+        margin: 3.5em auto 0;
+
+        .socialIcon {
+          display: inline-block;
+          margin-right: 1.8rem;
+
+          a {
+            color: $light-2;
+            font-size: 1.6rem;
+            
+            &:after {
+              content: none;
+            }
+
+            svg {
+              vertical-align: middle;
+            }
+        
+            &:hover {
+              color: $highlight-color;
+            }
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .highlight {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      border-radius: 1px;
+      background-color: $highlight-color;
+      box-shadow: $box-shadow-1;
+    }
+  }
+
+  @include tablet-up {
+    .navigation {
+      .brand {
+        margin-right: 2rem;
+      }
+
+      .menuToggle {
+        display: none;
+      }
+
+      .menu {
+        position: relative;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-between;
+        background-color: transparent;
+
+        // override mobile animations
+        display: flex !important;
+        opacity: 1 !important;
+
+        & > div {
+          align-self: center;
+        }
+
+        .menuItems {
+          .menuItem {
+            display: inline-block;
+            margin-right: 1.6rem;
+            margin-bottom: 0;
+
+            a {
+              font-size: 1.1rem;
+            }
+          }
+        }
+
+        .social {
+          margin: 0;
+
+          .socialIcon {
+            a {
+              display: block;
+              font-size: 1.4rem;
+              padding-bottom: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @include desktop-up {
+    .navigation {
+      .brand {
+        margin-right: 3rem;
+      }
+    }
+  }
+}

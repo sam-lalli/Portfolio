@@ -1,0 +1,48 @@
+@import './variables';
+@import './mixins';
+
+.footer {
+  padding: 1rem 1rem;
+  color: $light-2;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: $font-heading;
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  p {
+    margin: 0.6rem 0;
+  }
+
+  a:after {
+    bottom: 0px;
+  }
+
+  .poweredBy {
+    display: none;
+
+    svg {
+      color: $yellow;
+      vertical-align: middle;
+    }
+  }
+}
+
+@include mobile-up {
+  .footer {
+    .container {
+      flex-direction: row;
+    }
+    
+    .poweredBy {
+      display: block;
+    }
+  }
+}

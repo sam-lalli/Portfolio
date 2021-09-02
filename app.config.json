@@ -1,0 +1,61 @@
+{
+  "title": "Sam Lalli",
+  "description": "Sam is a passionate full stack developer from Salt Lake City, UT",
+  "thumbnail_image": "/uploads/eriksaulnier-thumbnail.png",
+  "header": {
+    "navigation": [
+      {
+        "label": "About",
+        "page": "content/pages/about.md",
+        "enabled": true
+      },
+      {
+        "label": "Projects",
+        "page": "content/pages/projects.md",
+        "enabled": true
+      },
+      {
+        "label": "Articles",
+        "page": "content/pages/articles.md",
+        "enabled": false
+      },
+      {
+        "label": "Contact",
+        "page": "content/pages/contact.md",
+        "enabled": true
+      }
+    ],
+    "social_links": [
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/samlalli",
+        "icon_name": "SiLinkedin",
+        "icon_title": ""
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/sam-lalli",
+        "icon_name": "SiGithub",
+        "icon_title": ""
+      },
+      {
+        "name": "Resume",
+        "link": "https://docs.google.com/document/d/1dUQOfOiE5z4FRofuXeyI-4eWHaihJEGBEZHBu60GREU/edit",
+        "icon_name": "SiLibreoffice",
+        "icon_title": ""
+      }
+    ]
+  },
+  "footer": {
+  },
+  "splash": {
+    "title": "Hey, I'm Sam!",
+    "subtitle": "I'm a || based in Salt Lake City, UT",
+    "typed_words": [
+      "web developer",
+      "front-end specialist",
+      "sports fan",
+      "software engineer"
+    ]
+  }
+}

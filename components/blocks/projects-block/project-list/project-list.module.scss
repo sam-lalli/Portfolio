@@ -1,0 +1,10 @@
+@import './variables';
+@import './mixins';
+
+.projectList {
+  display: grid;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  grid-gap: 4rem;
+}

@@ -1,0 +1,24 @@
+// https://yeun.github.io/open-color
+// #886F59
+// #AB947E
+
+$primary: #886F59;
+$primary-light: lighten($primary, 15);
+$primary-lighter: lighten($primary, 20);
+$primary-dark: darken($primary, 10);
+$primary-darker: #0F4271;
+
+$white: #fff;
+$yellow: #fcc419;
+
+$dark-1: #181a1b;
+$dark-2: #1E2021;
+$dark-3: #36363a;
+
+$light-1: $white;
+$light-2: #e2e8f0;
+
+$font-body: 'Roboto', sans-serif;
+$font-heading: 'Montserrat', sans-serif;
+
+$box-shadow-1: 5px 5px 15px 0px rgba(0,0,0,0.6);
