@@ -1,6 +1,6 @@
 ---
-created_date: 2021-8-31T17:39:34.000-04:00
-article_title: Hello World
+created_date: 2021-9-1T17:39:34.000-04:00
+article_title: Lambda School Experiance
 published: false
 
 ---

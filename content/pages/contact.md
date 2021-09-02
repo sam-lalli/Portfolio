@@ -1,13 +1,18 @@
 ---
-page_title: Get in contact
+page_title: Contact Me
 tab_title: Contact
 seo_description: ''
 blocks:
 - template: content-block
   block_title: ''
-  content: If you'd like to work together on a project, have a technical question,
-    or just want to have a chat; feel free to get in touch with using the form below
-    or emailing me directly at [hello@eriksaulnier.com](mailto:hello@eriksaulnier.com).
+  content: I love meeting new people inside and outside the tech industry! 
+   feel free to email me directly at [2sam.lalli@gmail.com](mailto:2sam.lalli@gmail.com).
+- template: content-block
+  block_title: ''
+  content: '![](/uploads/desertsnow.jpeg)'
+
+---
+
 - template: form-block
   fields:
   - template: form-field
@@ -57,5 +62,3 @@ blocks:
   form_name: contact
 published: true
 
----
-If you'd like to work together on a project, have a technical question, or just want to have a chat; feel free to get in touch with using the form below or emailing me directly at [hello@eriksaulnier.com](mailto:hello@eriksaulnier.com "Email me").
