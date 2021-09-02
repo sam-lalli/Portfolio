@@ -1,6 +1,7 @@
 ---
 page_title: About me
 seo_description: ''
+published: true
 blocks:
 - template: content-block
   content: "I am a passionate full-stack web developer orginally from Bountiful, UT. I have the desire to build cutting edge pieces of software that will help change the world.\n\n<br/>\n\n
