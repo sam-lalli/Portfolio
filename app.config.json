@@ -37,6 +37,12 @@
         "link": "https://github.com/sam-lalli",
         "icon_name": "SiGithub",
         "icon_title": ""
+      },
+      {
+        "name": "Resume",
+        "link": "https://docs.google.com/document/d/1dUQOfOiE5z4FRofuXeyI-4eWHaihJEGBEZHBu60GREU/edit",
+        "icon_name": "SiLibreoffice",
+        "icon_title": ""
       }
     ]
   },

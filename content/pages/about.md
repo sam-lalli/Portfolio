@@ -53,11 +53,14 @@ blocks:
       icon_title: ''
   - category_title: Frameworks
     technologies:
+    - label: TailwindCSS
+      icon_name: SiTailwindcss
+      icon_title: ''
     - label: React
       icon_name: SiReact
       icon_title: ''
-    - label: TailwindCSS
-      icon_name: SiTailwindcss
+    - label: Redux
+      icon_name: SiRedux
       icon_title: ''
     - label: Next.js
       icon_name: SiNextDotJs
