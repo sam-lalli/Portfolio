@@ -12,7 +12,7 @@ blocks:
     a Concentration in Entrepreneurship from [Rensselaer Polytechnic Institute](https://rpi.edu
     \"Rensselaer Polytechnic Instutite\"). \n\n<br/>\n\nI currently work as a Developer
     at [Troy Web Consulting](https://troyweb.com)."
-  block_title: Hey, my name is Erik
+  block_title: My name is Sam Lalli
   aside_image:
     '0': "/"
     '1': u
