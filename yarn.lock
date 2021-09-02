@@ -1454,7 +1454,7 @@
   dependencies:
     "is-promise" "^4.0.0"
 
-"@netlify/plugin-nextjs@3.4.2":
+"@netlify/plugin-nextjs@^3.4.2":
   "integrity" "sha512-QZ8NdH6vERxGCG0m3KszffsaurXyVCj65td2TQVBhWQJJLUq7P3615PWTsrvaHdbKI3Qop7WdCpTsmDGMCCGVg=="
   "resolved" "https://registry.npmjs.org/@netlify/plugin-nextjs/-/plugin-nextjs-3.4.2.tgz"
   "version" "3.4.2"
