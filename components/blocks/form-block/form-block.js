@@ -35,6 +35,7 @@ export default function FormBlock({ data: { block_title, form_name, fields, subm
         </div>
 
         <button type="submit" variants={fieldVariants}>{submit_text}</button>
+        {console.log(submit_text)}
       </form>
     </motion.section>
   )
