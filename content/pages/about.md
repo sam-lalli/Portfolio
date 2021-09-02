@@ -3,15 +3,9 @@ page_title: About me
 seo_description: ''
 blocks:
 - template: content-block
-  content: "I'm a software engineer based in Troy, NY who has a strong passion for
-    all things tech. Over the last 6 years, I have had experience working on a large
-    variety of projects of varying sizes including software applications, mobile apps,
-    websites, and even some video games. I am always excited when presented with opportunities
-    to add new technologies to my toolbelt and am never afraid of a challenge.\n\n<br/>\n\nI
-    have a Bachelor of Science Degree in Information Technology and Web Science with
-    a Concentration in Entrepreneurship from [Rensselaer Polytechnic Institute](https://rpi.edu
-    \"Rensselaer Polytechnic Instutite\"). \n\n<br/>\n\nI currently work as a Developer
-    at [Troy Web Consulting](https://troyweb.com)."
+  content: "I am a passionate full-stack web developer orginally from Bountiful, UT. I have the desire to build cutting edge pieces of software that will help change the world.\n\n<br/>\n\n
+    My Journey in tech began as I spent time studying Computer Science at Utah Valley University. During my time there I felt there had to be a faster, more practical way to learn these skills that I became so passionate about. I enrolled and graduated from [Lambda School](https://lambdaschool.com) in their Full-Stack Web Development program growing various technical and soft skills. I feel, at this time, that there is nothing that I cannot learn. I am really excited to continue and am always up for a new challenge that will help me learn and grow in my journey\n\n<br/>\n\n
+    In my free time I enjoy playing sports, being in the outdoors and meeting new people."
   block_title: My name is Sam Lalli
   aside_image:
     '0': "/"
@@ -30,19 +24,11 @@ blocks:
     '13': i
     '14': l
     '15': e
-    '16': "-"
-    '17': c
-    '18': r
-    '19': o
-    '20': p
-    '21': p
-    '22': e
-    '23': d
-    '24': "."
-    '25': j
-    '26': p
-    '27': g
-    image: "/uploads/profile-cropped.jpg"
+    '16': "."
+    '17': j
+    '18': p
+    '19': g
+    image: "/uploads/profile.jpg"
     alt: A picture of me
 - template: technology-block
   block_title: Technologies I use
@@ -53,23 +39,14 @@ blocks:
       icon_name: SiJavascript
       icon_title: ''
       icon_family: Devicons
-    - label: Typescript
-      icon_name: SiTypescript
+    - label: HTML
+      icon_name: DiHtml5
       icon_title: ''
-    - label: PHP
-      icon_name: SiPhp
-      icon_title: ''
-    - label: Dart
-      icon_name: SiDart
+    - label: CSS
+      icon_name: DiCss3
       icon_title: ''
     - label: Python
       icon_name: SiPython
-      icon_title: ''
-    - label: C++
-      icon_name: SiCplusplus
-      icon_title: ''
-    - label: C#
-      icon_name: SiCsharp
       icon_title: ''
     - label: Java
       icon_name: SiJava
@@ -79,49 +56,27 @@ blocks:
     - label: React
       icon_name: SiReact
       icon_title: ''
-    - label: Angular
-      icon_name: SiAngular
-      icon_title: ''
-    - label: Laravel
-      icon_name: SiLaravel
+    - label: TailwindCSS
+      icon_name: SiTailwindcss
       icon_title: ''
     - label: Next.js
       icon_name: SiNextDotJs
       icon_title: ''
-    - label: Vue.js
-      icon_name: SiVueDotJs
-      icon_title: ''
     - label: React Native
       icon_name: SiReact
       icon_title: ''
-    - label: Express.js
-    - label: Ionic
-      icon_name: SiIonic
-      icon_title: ''
+    - label: Java Spring
+      icon_name: SiJava
   - category_title: Databases
     technologies:
-    - label: MySQL
-      icon_name: GrMysql
-      icon_title: ''
-    - label: Firestore
+    - label: Firebase
       icon_name: SiFirebase
-      icon_title: ''
-    - label: MongoDB
-      icon_name: SiMongodb
       icon_title: ''
     - label: PostgreSQL
       icon_name: SiPostgresql
       icon_title: ''
-  - category_title: Content Management Systems
-    technologies:
-    - label: Wordpress
-      icon_name: SiWordpress
-      icon_title: ''
-    - label: Forestry
-      icon_name: GiForest
-      icon_title: ''
-    - label: Wix
-      icon_name: SiWix
+    - label: WebRTC
+      icon_name: SiWebrtc
       icon_title: ''
   - category_title: Development Tools
     technologies:
@@ -131,11 +86,14 @@ blocks:
     - label: Windows Terminal
       icon_name: BsTerminal
       icon_title: ''
-    - label: Docker
-      icon_name: SiDocker
+    - label: ZSH
+      icon_name: BsTerminal
       icon_title: ''
-    - label: Cyberduck
-      icon_name: GiPlasticDuck
+    - label: WSL2
+      icon_name: BsTerminal
+      icon_title: ''
+    - label: Git
+      icon_name: DiGit
       icon_title: ''
   - category_title: Other
     technologies:
@@ -144,20 +102,14 @@ blocks:
     - label: Netlify
       icon_name: SiNetlify
       icon_title: ''
-    - label: AWS
-      icon_name: SiAmazonaws
-      icon_title: ''
     - label: Heroku
       icon_name: SiHeroku
       icon_title: ''
-    - label: UiPath
-      icon_name: SiProbot
+    - label: Forestry
+      icon_name: GiForest
       icon_title: ''
-- template: content-block
-  content: If you are curious about the other stuff I use check out [/uses](/uses
-    "Uses Page").
-  block_title: Uses Page
-tab_title: About
-published: true
-
+    - label: Spanish Fluency
+      icon_name: BsFillStarFill
+      icon_title: ''
+    
 ---
