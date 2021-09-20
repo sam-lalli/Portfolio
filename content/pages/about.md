@@ -6,7 +6,8 @@ blocks:
 - template: content-block
   content: "I am a passionate full-stack web developer orginally from Bountiful, UT. I have the desire to build cutting edge pieces of software that will help change the world.\n\n<br/>\n\n
     My Journey in tech began as I spent time studying Computer Science at Utah Valley University. During my time there I felt there had to be a faster, more practical way to learn these skills that I became so passionate about. I enrolled and graduated from [Lambda School](https://lambdaschool.com) in their Full-Stack Web Development program growing various technical and soft skills. I feel, at this time, that there is nothing that I cannot learn. I am really excited to continue and am always up for a new challenge that will help me learn and grow in my journey\n\n<br/>\n\n
-    In my free time I enjoy playing sports, being in the outdoors and meeting new people."
+    In my free time I enjoy playing sports, being in the outdoors and meeting new people.\n\n<br/>\n\n
+    Currently Working as a QA Engineer for [QA Wolf](https://www.qawolf.com/)"
   block_title: My name is Sam Lalli
   aside_image:
     '0': "/"
